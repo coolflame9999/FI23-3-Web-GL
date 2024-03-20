@@ -19,3 +19,16 @@ main {
     margin: 100px;
 }
 
+.fette-liste {
+    font-weight: 900;
+}
+
+li.custom-list-item {
+    margin: 20px;
+}
+
+#main-title {
+    font-size: 2em;
+    text-shadow: 5px 5px 5px #fefefe;
+}
+
