@@ -1,0 +1,21 @@
+
+/* CSS-Selektoren */
+/*
+    Element-Selektoren => body, main, p, img, h1, h2,...
+    Class-Selektor => .card, .header, ...
+    ID-Selektor => #card1, #them-toggle, #submit-btn
+    Attribute-Selektor => todo
+ */
+
+body {
+    background-color: #8c8c8c;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-style: italic;
+}
+
+main {
+    margin: 100px;
+}
+
