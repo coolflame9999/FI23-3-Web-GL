@@ -7,18 +7,39 @@
 
     <style>
       div {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
       }
+
       .rect1 {
-        background-color: red;
+        background-color: rgb(190, 114, 114);
+        width: 400px;
+        height: 200px;
+        border: 1px solid red;
       }
       .rect2 {
-        background-color: yellow;
+        background-color: rgb(214, 214, 47);
+        width: 400px;
+        height: 200px;
+        border: 1px solid blue;
       }
       body {
         margin: 0;
       }
       p {
         display: block;
+      }
+
+      a.link-btn {
+        color: black;
+        text-decoration: none;
+        background-color: #bababa;
+        display: inline;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 2px 2px 5px black;
       }
     </style>
   </head>
@@ -32,9 +53,12 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
       dignissimos repudiandae vel velit.
     </p>
-    1
-    <div class="rect1"></div>
-    2
-    <div class="rect1"></div>
+
+    <div class="rect1">1</div>
+
+    <div class="rect2">2</div>
+    <br />
+    <a class="link-btn href" href="https://google.de">Go to Google</a>
+    <a class="link-btn href" href="https://google.de">Go to Google</a>
   </body>
 </html>

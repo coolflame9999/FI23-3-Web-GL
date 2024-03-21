@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleFlex.css" />
+    <title>Flexbox</title>
+    <style>
+      body {
+        background-color: #6c6c6c;
+      }
+
+      .flex-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+      }
+
+      .card {
+        width: 300px;
+        color: #fefefe;
+        background-color: rgb(96, 89, 106);
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px rgb(56, 52, 61);
+      }
+      .card > img {
+        width: 100%;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+      }
+
+      .card-text > * {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        /* text-align: center; */
+      }
+
+      .card-text > h3 {
+        font-size: 1.3em;
+        font-weight: 400;
+        font-family: Impact, Arial, sans-serif;
+        text-shadow: 1px 1px 2px black;
+      }
+      .card-text > p.price {
+        font-size: 1.6em;
+        font-family: "Segoe UI", Verdana, sans-serif;
+        margin: 10px 0 30px 0;
+      }
+      .card-text:last-child {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="card">
+        <img src="https://picsum.photos/200/200" alt="Card1 Image" />
+        <div class="card-text">
+          <h3>HEASPHONE</h3>
+          <p class="price">29,99</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/200/200" alt="Card1 Image" />
+        <div class="card-text">
+          <h3>HEASPHONE</h3>
+          <p class="price">29,99</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/200/200" alt="Card1 Image" />
+        <div class="card-text">
+          <h3>HEASPHONE</h3>
+          <p class="price">29,99</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/200/200" alt="Card1 Image" />
+        <div class="card-text">
+          <h3>HEASPHONE</h3>
+          <p class="price">29,99</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://picsum.photos/200/200" alt="Card1 Image" />
+        <div class="card-text">
+          <h3>HEASPHONE</h3>
+          <p class="price">29,99</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
