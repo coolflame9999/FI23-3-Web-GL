@@ -1,0 +1,51 @@
+:root {
+    --primary-color: rgb(255, 13, 178);
+    --accent-color: rgb(200, 40, 230);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+
+}
+#clock {
+margin-top: 10vh;
+margin-bottom: 15px;
+font-size: 4em;
+color: var(--primary-color);
+text-shadow: 2px 2px 3px black;
+}
+
+#clock,
+#joke {
+    text-align: center;
+}
+
+main > div.link-container {
+    border: 2px double var(--accent-color);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0,0,0,.3);
+    font-size: 1.2em;
+    min-width: 225px;
+}
+
+main > div.link-container > ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main > div.link-container > h3 {
+    margin-top: 10px;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 3px black;
+}
+
+main > div.link-container > ul > li > a {
+    color: #fefefe;
+    text-decoration:none;
+}
