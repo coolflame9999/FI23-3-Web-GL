@@ -1,9 +1,12 @@
 :root {
-    --primary-color: rgb(255, 13, 178);
-    --accent-color: rgb(200, 40, 230);
+    --primary-color: rgba(182,43,71,255);
+    --accent-color: rgba(118,228,243,255);
 }
 
-
+@font-face {
+    font-family: Matrix;
+    src: url("./assets/Matrix-MZ4P.ttf");
+}
 
 body {
     margin: 0;
@@ -25,9 +28,12 @@ main {
 }
 #clock {
 margin-bottom: 15px;
+font-weight: 700;
 font-size: 4em;
+font-family: Matrix, Impact, sans-serif;
 color: var(--primary-color);
 text-shadow: 2px 2px 3px black;
+
 }
 
 #clock,
@@ -39,7 +45,7 @@ main > div.link-container {
     border: 2px double var(--accent-color);
     border-radius: 10px;
     padding: 10px;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.8);
     font-size: 1.2em;
     min-width: 200px;
 }
@@ -56,11 +62,18 @@ main > div.link-container > h3 {
 }
 
 main > div.link-container > ul > li > a {
-    color: #fefefe;
+    color: #8c8c8c;
     text-decoration:none;
+    transition: all .3s ease;
+}
+
+.link-container>ul>li>a:hover {
+    color: #249fc0;
+    font-weight: 600;
+   
 }
 
 
-@media (maxwidth: 1080p) {
+@media (max-width: 1080p) {
 
 }
