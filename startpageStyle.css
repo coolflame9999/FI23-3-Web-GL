@@ -2,9 +2,15 @@
     --primary-color: rgb(255, 13, 178);
     --accent-color: rgb(200, 40, 230);
 }
+
+html {
+    background-image: url(/pics/desktopDunkel\ \(3\).png);
+}
+
 body {
     margin: 0;
     padding: 0;
+    
 }
 
 main {
