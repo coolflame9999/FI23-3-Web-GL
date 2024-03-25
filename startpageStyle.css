@@ -6,6 +6,8 @@
 @font-face {
     font-family: Matrix;
     src: url("./assets/Matrix-MZ4P.ttf");
+    font-family: JosefinSans;
+    src: url("./assets/Josefin_Sans/JosefinSans-VariableFont_wght.ttf")
 }
 
 body {
@@ -30,7 +32,7 @@ main {
 margin-bottom: 15px;
 font-weight: 700;
 font-size: 4em;
-font-family: Matrix, Impact, sans-serif;
+font-family: JosefinSans, Impact, sans-serif;
 color: var(--primary-color);
 text-shadow: 2px 2px 3px black;
 
@@ -65,11 +67,14 @@ main > div.link-container > ul > li > a {
     color: #8c8c8c;
     text-decoration:none;
     transition: all .3s ease;
+    /* margin: 0 35px 0 0; */
 }
 
 .link-container>ul>li>a:hover {
     color: #249fc0;
     font-weight: 600;
+    /* font-size: 1.1em;
+    margin: 0; */
    
 }
 
